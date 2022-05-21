@@ -33,9 +33,10 @@ CatBoost CV
 
 # Выводы:
 Разработаны 2 нотбука:
-1) UFC_Data_preprocessing.ipynb - подготовкой данных к анализу
+1) UFC_Data_preprocessing.ipynb - подготовка данных к анализу и создание train и valid данных. 
 2) UFC_Models_AK.ipynb - эксприменты с моделями
-
+3) train_combined_2.csv - датасет для тренировок 
+4) valid_combined_2.csv - датасет для валидации
 Наилучшей моделью для решения данной задачи оказался CatBoost c accuracy=0.72.
 Параметры модели:
 - Кросс-валидация на 10 под-выборках
